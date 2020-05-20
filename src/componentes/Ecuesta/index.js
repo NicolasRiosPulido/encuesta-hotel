@@ -4,7 +4,7 @@ import { Label, Input, Select, Titulo } from "./styles";
 export const Encuesta = () => {
 	return (
 		<div className="cuerpo">
-			<h1>Encuesta Nicolito</h1>
+			<h1>Encuesta En test kjaskjasd</h1>
 			<Titulo>1. Informacion obra</Titulo>
 			<Label>1.1 tipo protocolo</Label>
 			<Select>
