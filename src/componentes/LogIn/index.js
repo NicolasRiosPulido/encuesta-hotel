@@ -21,17 +21,18 @@ export const LogIn = () => {
 			const credencial = sha512("87654321");
 			console.log(credencial);
 			axios
-				.post("http://encuesta.idtek.com.co/servicios/login.php", {
+				/* 				.post("http://encuesta.idtek.com.co/servicios/login.php", {
 					login: login,
 					credencial: credencial,
-				})
+				}) */
+				.get("https://rickandmortyapi.com/api/character/")
 				.then((res) => console.log("respuesta", res))
 				.catch((errar) => console.log(errar));
 			setCargando(true);
-			setTimeout(() => {
+			/* 			setTimeout(() => {
 				activateAuth();
 				setCargando(false);
-			}, 2000);
+			}, 2000); */
 		}
 	};
 	return (

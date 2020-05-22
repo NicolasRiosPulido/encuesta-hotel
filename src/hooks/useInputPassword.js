@@ -11,7 +11,6 @@ export const useInputPassword = (logIn) => {
 	};
 	const validarError = () => {
 		if (logIn) {
-			console.log(valor);
 			if (valor.length === 0) {
 				setErrorMesaje("Por favor complete el campo");
 				return true;
