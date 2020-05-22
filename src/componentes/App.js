@@ -7,7 +7,6 @@ import { LogIn } from "./LogIn";
 
 export const App = () => {
 	const { isAuth } = useContext(Context);
-	console.log(isAuth);
 	return (
 		<Fragment>
 			<GlobalStyles />

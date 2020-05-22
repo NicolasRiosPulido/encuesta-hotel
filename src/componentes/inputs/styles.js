@@ -11,3 +11,15 @@ export const Input = styled.input`
 export const ContenedorInput = styled.div`
 	margin: 0 10px;
 `;
+
+export const ContenedorError = styled.div`
+	display: flex;
+	align-items: center;
+`;
+export const ImgError = styled.img`
+	height: 30px;
+	width: 30px;
+`;
+export const ErrorMsg = styled.label`
+	color: red;
+`;

@@ -4,7 +4,7 @@ import "./styles.css";
 export const Spinner = () => {
 	return (
 		<Fragment>
-			<div class="lds-ellipsis">
+			<div className="lds-ellipsis">
 				<div></div>
 				<div></div>
 				<div></div>
