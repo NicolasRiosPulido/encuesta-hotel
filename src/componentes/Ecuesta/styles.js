@@ -34,7 +34,7 @@ export const MainTittle = styled.h1`
 `;
 
 export const Cuerpo = styled.div`
-	background: #bbb;
+	background: #eee;
 	padding: 10px;
 `;
 

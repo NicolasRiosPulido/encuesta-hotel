@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const LogInContainer = styled.div`
-	background: #ccc;
+	background: #eee;
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;

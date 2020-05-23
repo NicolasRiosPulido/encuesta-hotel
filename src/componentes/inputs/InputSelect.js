@@ -1,32 +1,20 @@
 import React from "react";
+
 import {
 	Input,
 	ContenedorInput,
 	ContenedorError,
 	ImgError,
 	ErrorMsg,
+	Label,
 } from "./styles";
 import LogoError from "../../Assets/valid-form.svg";
 
-const ERROR_STYLE = {
-	borderColor: "#E91B1E",
-	background: "rgba(233, 27, 30, .1)",
-	color: "#000",
-	width: "-webkit-fill-available",
-};
-
-export const InputPassword = ({ useValor, mensaje, disable, titulo }) => {
-	console.log(mensaje);
-
+export const InputSelect = ({ useValor, mensaje, disable, titulo }) => {
 	return (
 		<ContenedorInput>
-			<label>{titulo}</label>
-			<Input
-				type="password"
-				disabled={disable}
-				style={mensaje ? ERROR_STYLE : null}
-				onChange={useValor}
-			/>
+			<Label>{titulo}</Label>
+			<Input />
 			{mensaje ? (
 				<ContenedorError>
 					<ImgError src={LogoError} alt="error" />
